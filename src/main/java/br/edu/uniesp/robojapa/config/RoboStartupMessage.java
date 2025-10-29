@@ -14,7 +14,7 @@ public class RoboStartupMessage implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         // Garante que o diretório de destino existe
-        String outputDir = "C:\\robocode\\robots";
+        String outputDir = "C:\\robocode\\robots\\iesp";
         if (!Files.exists(Paths.get(outputDir))) {
             Files.createDirectories(Paths.get(outputDir));
             System.out.println("📂 Diretório criado: " + outputDir);
