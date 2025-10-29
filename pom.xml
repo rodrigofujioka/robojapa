@@ -10,7 +10,7 @@
     </parent>
     <groupId>br.edu.uniesp</groupId>
     <artifactId>robojapa</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <name>robojapa</name>
     <description>robojapa</description>
     <url/>
