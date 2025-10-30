@@ -41,7 +41,7 @@ public class RoboSpartano extends AdvancedRobot {
             execute();
         }
     }
-    
+
     public void onScannedRobot(ScannedRobotEvent e) {
         // Calcula a posição exata do robô inimigo
         double absoluteBearing = getHeadingRadians() + e.getBearingRadians();

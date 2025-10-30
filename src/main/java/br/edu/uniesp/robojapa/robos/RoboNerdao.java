@@ -49,7 +49,7 @@ public class RoboNerdao extends AdvancedRobot {
             
             // Atualiza o contador de passos
             movementStep++;
-            
+
             // Muda o padrão de movimento periodicamente
             if (movementStep % 100 == 0) {
                 movementPattern = (movementPattern + 1) % 3;

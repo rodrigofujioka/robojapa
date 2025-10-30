@@ -26,7 +26,7 @@ public class RoboNinja extends AdvancedRobot {
         setBodyColor(java.awt.Color.BLACK);
         setGunColor(java.awt.Color.DARK_GRAY);
         setRadarColor(java.awt.Color.RED);
-        
+
         // Movimento circular inicial
         setAhead(40000);
         movingForward = true;
